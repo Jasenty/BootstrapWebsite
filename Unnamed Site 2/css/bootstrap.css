@@ -1,3 +1,4 @@
+@import url("custom css.css");
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -3001,6 +3002,7 @@ select[multiple].input-lg {
     font-size: 12px;
   }
 }
+
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -6774,3 +6776,7 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.navbar-inverse.center {
+}
+.navbar-inverse.center {
+}
