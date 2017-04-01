@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-
+.footerstuff {
+	font-family: 'Abel', sans-serif;
+}
 /* This is the new section for the Gallery */
 .gallery-title
 {
@@ -10,6 +12,7 @@
     text-align: center;
     font-weight: 500;
     margin-bottom: 70px;
+	font-family: 'Abel', sans-serif;
 }
 .gallery-title:after {
     content: "";
@@ -27,6 +30,7 @@
     text-align: center;
     color: #42B32F;
     margin-bottom: 30px;
+	font-family: 'Abel', sans-serif;
 
 }
 .filter-button:hover
@@ -155,6 +159,7 @@ ul.twPc-Arrange {
 /* end of twitter */
 .twitterHeading {
 	text-align: center;
+	font-family: 'Abel', sans-serif;
 }
 
 
@@ -204,7 +209,10 @@ Image credits: unsplash.com
 Image placeholders: placemi.com
 */
 
-
+/*this is the who we are */
+.whoweare {
+	font-family: 'Abel', sans-serif;
+}
 .mt-100 {
     margin-top: 100px; 
 }
@@ -279,3 +287,31 @@ Image placeholders: placemi.com
     box-shadow: 20px 20px 40px #887;
 }
 /* scroll to top finished */
+
+.stylish-panel {
+    padding: 20px 0;
+    text-align: center;
+}
+.stylish-panel > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.stylish-panel > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    background: rgba(200, 200, 200, 0.1);
+    transition: 0.5s;
+}
+
+.stylish-panel > div:hover img {
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+/*this is the who we are finished */
