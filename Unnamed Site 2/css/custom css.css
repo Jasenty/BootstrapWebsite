@@ -92,6 +92,11 @@ ul.nav {
     margin-bottom: 70px;
 	font-family: 'Abel', sans-serif;
 }
+.whyarentyouworking {
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	color: magenta;
+}
 .gallery-title:after {
     content: "";
     position: absolute;
