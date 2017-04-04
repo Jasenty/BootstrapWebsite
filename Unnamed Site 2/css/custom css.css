@@ -3,6 +3,14 @@
 .footerstuff {
 	font-family: 'Abel', sans-serif;
 }
+.mainheaderstuff {
+	color: magenta;
+	font-size: 100px;
+}
+.biglogonavbarstuff {
+	color: yellow;
+	font-size: 100px;
+}
 
 /* Navbar shit */
 navbar-height: 50px;
@@ -64,7 +72,7 @@ ul.nav {
   background: cyan;
 }
   .big-logo-container {
-    padding-top: 50px;
+    padding-top: 100px;
   }
   
   h1 {
