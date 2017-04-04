@@ -4,6 +4,13 @@
  * Licensed under the MIT license
  */
 
+
+var ProgressBar = require(['js/progressbar.js'], function (progressbar) {
+	
+
+var line = new progressbar.Line('#progressBar');
+
+
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
 }
@@ -2467,3 +2474,20 @@ $(window).scroll(function() {
   
   
 });
+
+
+// progressbar.js@1.0.0 version is used
+// Docs: http://progressbarjs.readthedocs.org/en/1.0.0/
+
+var bar = new progressbar.SemiCircle(progressBar, {
+  strokeWidth: 6,
+  easing: 'easeInOut',
+  duration: 1400,
+  color: '#FFEA82',
+  trailColor: '#eee',
+  trailWidth: 1,
+  svgStyle: null
+});
+
+bar.animate(1.0);  // Number from 0.0 to 1.0
+		});

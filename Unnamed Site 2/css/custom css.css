@@ -12,6 +12,13 @@
 	font-size: 100px;
 }
 
+
+#progressBar {
+  margin: 20px;
+  width: 200px;
+  height: 100px;
+}
+
 /* Navbar shit */
 navbar-height: 50px;
 big-logo-padding: 15px; /*adjust these 2 values */
